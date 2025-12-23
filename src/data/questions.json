@@ -1,0 +1,256 @@
+[
+  {
+    "id": 1,
+    "question": "React is mainly used for?",
+    "options": ["Styling", "Mobile Apps", "Building UI", "None"],
+    "answer": "Building UI"
+  },
+  {
+    "id": 2,
+    "question": "Which hook is used for state?",
+    "options": ["useEffect", "useState", "useMemo", "useContext"],
+    "answer": "useState"
+  },
+  {
+    "id": 3,
+    "question": "What is JSX?",
+    "options": [
+      "JavaScript XML",
+      "Java Syntax Extension",
+      "JSON Extension",
+      "JavaScript Extra"
+    ],
+    "answer": "JavaScript XML"
+  },
+  {
+    "id": 4,
+    "question": "Which method is used to create components in React?",
+    "options": [
+      "render()",
+      "componentDidMount()",
+      "function or class",
+      "setState()"
+    ],
+    "answer": "function or class"
+  },
+  {
+    "id": 5,
+    "question": "What is the virtual DOM?",
+    "options": [
+      "A copy of the real DOM",
+      "A new browser feature",
+      "A database",
+      "A CSS library"
+    ],
+    "answer": "A copy of the real DOM"
+  },
+  {
+    "id": 6,
+    "question": "Which hook is used for side effects?",
+    "options": ["useState", "useEffect", "useCallback", "useRef"],
+    "answer": "useEffect"
+  },
+  {
+    "id": 7,
+    "question": "What does props stand for?",
+    "options": ["Properties", "Proposals", "Prototypes", "Programs"],
+    "answer": "Properties"
+  },
+  {
+    "id": 8,
+    "question": "How do you pass data from parent to child?",
+    "options": ["Using state", "Using props", "Using context", "Using refs"],
+    "answer": "Using props"
+  },
+  {
+    "id": 9,
+    "question": "What is React Router used for?",
+    "options": [
+      "State management",
+      "Navigation between pages",
+      "API calls",
+      "Styling"
+    ],
+    "answer": "Navigation between pages"
+  },
+  {
+    "id": 10,
+    "question": "Which company developed React?",
+    "options": ["Google", "Facebook", "Microsoft", "Amazon"],
+    "answer": "Facebook"
+  },
+  {
+    "id": 11,
+    "question": "What is the use of key prop in React lists?",
+    "options": [
+      "Styling elements",
+      "Identifying unique elements",
+      "Creating animations",
+      "Handling events"
+    ],
+    "answer": "Identifying unique elements"
+  },
+  {
+    "id": 12,
+    "question": "Which hook is used to optimize performance?",
+    "options": ["useState", "useEffect", "useMemo", "useContext"],
+    "answer": "useMemo"
+  },
+  {
+    "id": 13,
+    "question": "What is the purpose of useContext hook?",
+    "options": [
+      "Manage local state",
+      "Share data across components",
+      "Handle side effects",
+      "Create refs"
+    ],
+    "answer": "Share data across components"
+  },
+  {
+    "id": 14,
+    "question": "How do you handle events in React?",
+    "options": ["onclick", "onClick", "onPress", "handleClick"],
+    "answer": "onClick"
+  },
+  {
+    "id": 15,
+    "question": "What is the default port for React app?",
+    "options": ["8080", "3000", "5000", "4200"],
+    "answer": "3000"
+  },
+  {
+    "id": 16,
+    "question": "What does useRef hook return?",
+    "options": [
+      "A mutable object",
+      "A state value",
+      "An effect cleanup",
+      "A callback function"
+    ],
+    "answer": "A mutable object"
+  },
+  {
+    "id": 17,
+    "question": "When does useEffect run by default?",
+    "options": ["Before render", "After every render", "Only once", "Never"],
+    "answer": "After every render"
+  },
+  {
+    "id": 18,
+    "question": "What is useCallback used for?",
+    "options": [
+      "Memoizing functions",
+      "Managing state",
+      "Handling side effects",
+      "Creating refs"
+    ],
+    "answer": "Memoizing functions"
+  },
+  {
+    "id": 19,
+    "question": "Which hook is used to access DOM elements?",
+    "options": ["useState", "useEffect", "useRef", "useMemo"],
+    "answer": "useRef"
+  },
+  {
+    "id": 20,
+    "question": "What does the dependency array in useEffect do?",
+    "options": [
+      "Controls when effect runs",
+      "Stores state values",
+      "Creates memoized values",
+      "Handles errors"
+    ],
+    "answer": "Controls when effect runs"
+  },
+  {
+    "id": 21,
+    "question": "What happens if useEffect has an empty dependency array?",
+    "options": [
+      "Runs after every render",
+      "Runs only once on mount",
+      "Never runs",
+      "Runs before render"
+    ],
+    "answer": "Runs only once on mount"
+  },
+  {
+    "id": 22,
+    "question": "Which hook is used to create custom hooks?",
+    "options": [
+      "Any hook starting with 'use'",
+      "useCustom",
+      "createHook",
+      "makeHook"
+    ],
+    "answer": "Any hook starting with 'use'"
+  },
+  {
+    "id": 23,
+    "question": "What does useReducer hook provide?",
+    "options": [
+      "Alternative to useState",
+      "DOM manipulation",
+      "API calls",
+      "Routing"
+    ],
+    "answer": "Alternative to useState"
+  },
+  {
+    "id": 24,
+    "question": "When should you use useMemo?",
+    "options": [
+      "For expensive calculations",
+      "For all variables",
+      "For event handlers",
+      "For API calls"
+    ],
+    "answer": "For expensive calculations"
+  },
+  {
+    "id": 25,
+    "question": "What is the cleanup function in useEffect?",
+    "options": [
+      "Function returned from effect",
+      "First parameter",
+      "Dependency array",
+      "Error handler"
+    ],
+    "answer": "Function returned from effect"
+  },
+  {
+    "id": 26,
+    "question": "Can you call hooks conditionally?",
+    "options": [
+      "Yes, always",
+      "No, hooks must be at top level",
+      "Only in useEffect",
+      "Only in custom hooks"
+    ],
+    "answer": "No, hooks must be at top level"
+  },
+  {
+    "id": 27,
+    "question": "What is useLayoutEffect used for?",
+    "options": [
+      "Runs synchronously after DOM mutations",
+      "Manages state",
+      "Creates refs",
+      "Handles routing"
+    ],
+    "answer": "Runs synchronously after DOM mutations"
+  },
+  {
+    "id": 28,
+    "question": "Which hook helps avoid prop drilling?",
+    "options": ["useState", "useContext", "useRef", "useCallback"],
+    "answer": "useContext"
+  },
+  {
+    "id": 29,
+    "question": "When was React Hooks introduced?",
+    "options": ["React 15", "React 16.8", "React 17", "React 18"],
+    "answer": "React 16.8"
+  }
+]
